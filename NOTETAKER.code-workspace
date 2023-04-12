@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../GT-VIRT-FSF-PT-01-2023-U-LOLC/11-Express/02-Challenge/Develop"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "NOTETAKER"
+	}
+}
