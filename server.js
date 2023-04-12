@@ -8,6 +8,10 @@ app.use(express.static(`public`))
 app.use(express.urlencoded({extended:true}));
 
 const PORT = process.env.PORT || 3001;
+const readCurrentDB = async () => {
+    const data = await fs.readFile('./db/db.json', "utf-8")
+    return JSON.parse(data)
+  }
 const writeNewDB = (data) => {
     fs.writeFile('./db/db.json', JSON.stringify(data, null, 4),
     err ? console.error()
@@ -15,10 +19,10 @@ const writeNewDB = (data) => {
     )
 }
 
-const readCurrentDB = async () => {
-  const data = await fs.readFile('./db/db.json', "utf-8")
-  return JSON.parse(data)
-}
+// const readCurrentDB = async () => {
+//   const data = await fs.readFile('./db/db.json', "utf-8")
+//   return JSON.parse(data)
+// }
 app.get(`/`,(req,res) =>
     res.sendFile(path.join(__dirname,'./public/notes.html'))
 )
