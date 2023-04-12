@@ -7,7 +7,7 @@ app.use(express.json());
 app.use(express.static(`public`))
 app.use(express.urlencoded({extended:true}));
 
-const PORT = 3001;
+const PORT = process.env.PORT || 3001;
 const writeNewDB = (data) => {
     fs.writeFile('./db/db.json', JSON.stringify(data, null, 4),
     err ? console.error()
