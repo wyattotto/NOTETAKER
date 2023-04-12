@@ -5,6 +5,7 @@
 ## Description
 
 This Project can be used to mark task to do in a day.
+It is made using Node and Express JS. 
 
 
 ## Languages used
