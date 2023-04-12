@@ -24,7 +24,7 @@ NODE JS & Express.JS
 ## Installation
 
     Instructions for installation:
-    
+    Deployed Heroku https://notetakerq.herokuapp.com/notes
 
 ## Usage
 
@@ -32,7 +32,7 @@ NODE JS & Express.JS
 
 
 ## ScreenShot of Code
-  ![readmecode](./assets/SS.png) 
+  ![readmecode](./public/assets/SS.PNG) 
   
 
 
@@ -44,8 +44,7 @@ NODE JS & Express.JS
 
   Wyattotto87@gmail.com
 
-Link to Video:
-https://drive.google.com/file/d/1ddpv5fe_iklwpEza346Tr5gq_DsDNL0U/view
+
 
  ## License 
         This project is covered by MIT license.
